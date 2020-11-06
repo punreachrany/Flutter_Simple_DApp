@@ -1,4 +1,4 @@
-# greeting_blockchain
+# Flutter Simple Decentralized Application
 
 A new Flutter project.
 
