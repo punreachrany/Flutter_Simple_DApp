@@ -104,8 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
   // ==== This is to set the information only ==== //
   // ==== set method ==== //
   Future<String> submit(String functionName, List<dynamic> args) async {
-    EthPrivateKey credentials = EthPrivateKey.fromHex(
-        "ec7176b706f1865d4bae8ce4e4b507604586c27df6b784e49087e20f8ba09995");
+    EthPrivateKey credentials =
+        EthPrivateKey.fromHex("Your Secret Key from Metamask");
 
     DeployedContract contract = await loadContract();
     final ethFunction = contract.function(functionName);
